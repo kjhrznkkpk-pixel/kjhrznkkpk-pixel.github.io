@@ -2,12 +2,172 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Keith Andrews Web Design and Development</title>
+    <meta name="description" content="Keith Andrews Web Design and Development - Website coming soon.">
+    <meta name="keywords" content="Keith Andrews, web design, web development, websites, UK">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 760px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 82px;
+            height: 82px;
+            margin: 0 auto 22px;
+            border-radius: 18px;
+            background: #1e293b;
+            border: 1px solid #334155;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3b82f6;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-bottom: 18px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: rgba(59, 130, 246, 0.14);
+            color: #93c5fd;
+            font-size: 13px;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(34px, 6vw, 58px);
+            line-height: 1.05;
+        }
+
+        h2 {
+            margin: 14px 0 0;
+            font-size: clamp(18px, 3vw, 24px);
+            font-weight: normal;
+            color: #cbd5e1;
+        }
+
+        p {
+            max-width: 620px;
+            margin: 24px auto 0;
+            color: #94a3b8;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .button-group {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 46px;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .btn.primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn.primary:hover {
+            background: #2563eb;
+        }
+
+        .btn.secondary {
+            border: 1px solid #3b82f6;
+            color: #93c5fd;
+        }
+
+        .btn.secondary:hover {
+            background: rgba(59, 130, 246, 0.12);
+        }
+
+        footer {
+            margin-top: 42px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        @media (max-width: 520px) {
+            body {
+                padding: 18px;
+            }
+
+            .logo {
+                width: 70px;
+                height: 70px;
+                font-size: 24px;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-     <h1>Hello Keith</h1>
-    <p>If you can see this, your HTML file is working.</p>
+    <main class="page">
+        <div class="logo">KA</div>
+
+        <span class="tag">Website coming soon</span>
+
+        <h1>Keith Andrews Web Design and Development</h1>
+
+        <h2>Clean, practical websites for small businesses and local services.</h2>
+
+        <p>
+            This site is currently under construction. Soon you’ll be able to view services,
+            recent work, contact details and examples of website builds.
+        </p>
+
+        <div class="button-group">
+            <a class="btn primary" href="keithandrews0@icloud.com">
+                Email Me
+            </a>
+
+            <a class="btn secondary" href="https://www.nfjservicesltd.co.uk">
+                View NFJ Services
+            </a>
+        </div>
+
+        <footer>
+            © 2026 Keith Andrews Web Design and Development
+        </footer>
+    </main>
 </body>
 </html>
- <h1>Hello Keith</h1>
